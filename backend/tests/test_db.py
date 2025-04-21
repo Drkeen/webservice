@@ -5,7 +5,7 @@ from unittest.mock import patch, MagicMock
 @pytest.fixture(autouse=True)
 def mock_db_pool(monkeypatch):
     mock_pool = MagicMock()
-    monkeypatch.setattr("db.db_pool", mock_pool)
+    monkeypatch.setattr("utils.db.db_pool", mock_pool)
     return mock_pool
 
 
