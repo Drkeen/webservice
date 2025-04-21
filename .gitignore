@@ -178,6 +178,10 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# Allow SvelteKit's /src/lib directory
+!frontend/src/lib/
 
+# my .gitignores
+backend/seed_admin.py
 
 # End of https://www.toptal.com/developers/gitignore/api/python

@@ -26,6 +26,7 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const VITE_BACKEND_URL: string;
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const BUNDLED_DEBUGPY_PATH: string;
@@ -139,6 +140,7 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		VITE_BACKEND_URL: string;
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		BUNDLED_DEBUGPY_PATH: string;

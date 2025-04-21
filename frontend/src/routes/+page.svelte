@@ -8,6 +8,6 @@
     };
   </script>
 
-<h1>Welcome to SvelteKit</h1>
+<h1>Hello World</h1>
 
 <p>Backend status: {data.serverStatus.message}</p>
