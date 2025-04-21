@@ -28,4 +28,4 @@ jobs:
           pip install pytest  
 
       - name: Run tests with pytest  
-        run: pytest --tb=short --disable-warnings
+        run: pytest backend/tests --tb=short --disable-warnings
